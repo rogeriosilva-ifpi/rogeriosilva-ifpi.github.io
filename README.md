@@ -23,7 +23,7 @@ Repensando Clean Architecture, DDD e SOLID para agentes autônomos.
 Ensaio técnico v1.0 · outubro de 2026 · organizado por Prof. Rogério Silva e Claude Opus 5  
 5 capítulos + introdução e epílogo · 220 páginas · 12 diagramas · 6 instrumentos
 
-[ler online](https://rogeriosilva-ifpi.github.io/arquitetura-ia-ebook/) · [PDF](https://github.com/rogeriosilva-ifpi/arquitetura-ia-ebook/raw/main/Arquitetura-em-Tempos-de-IA.pdf) · [repositório](https://github.com/rogeriosilva-ifpi/arquitetura-ia-ebook)
+[ler online](https://rogeriosilva-ifpi.github.io/arquitetura-ia-ebook/) · [PDF](https://github.com/rogeriosilva-ifpi/arquitetura-ia-ebook/raw/main/Arquitetura-em-Tempos-de-IA.pdf) · [EPUB](https://github.com/rogeriosilva-ifpi/arquitetura-ia-ebook/raw/main/Arquitetura-em-Tempos-de-IA.epub) · [repositório](https://github.com/rogeriosilva-ifpi/arquitetura-ia-ebook)
 
 ### [Crachá & Porta](https://rogeriosilva-ifpi.github.io/cracha-e-porta-ebook/)
 
@@ -32,7 +32,7 @@ Autenticação e autorização em backends Express e FastAPI, do zero até o ní
 Manual de campo v1.0 · outubro de 2026 · organizado por Prof. Rogério Silva e Claude Opus 5.5  
 16 capítulos · 223 páginas · 54 ataques reproduzíveis · 8 instrumentos
 
-[ler online](https://rogeriosilva-ifpi.github.io/cracha-e-porta-ebook/) · [PDF](https://github.com/rogeriosilva-ifpi/cracha-e-porta-ebook/raw/main/Cracha-e-Porta.pdf) · [repositório](https://github.com/rogeriosilva-ifpi/cracha-e-porta-ebook) · [Laboratório Express 5 + TypeScript](https://github.com/rogeriosilva-ifpi/cracha-e-porta-express) · [Laboratório FastAPI + Python](https://github.com/rogeriosilva-ifpi/cracha-e-porta-fastapi)
+[ler online](https://rogeriosilva-ifpi.github.io/cracha-e-porta-ebook/) · [PDF](https://github.com/rogeriosilva-ifpi/cracha-e-porta-ebook/raw/main/Cracha-e-Porta.pdf) · [EPUB](https://github.com/rogeriosilva-ifpi/cracha-e-porta-ebook/raw/main/Cracha-e-Porta.epub) · [repositório](https://github.com/rogeriosilva-ifpi/cracha-e-porta-ebook) · [Laboratório Express 5 + TypeScript](https://github.com/rogeriosilva-ifpi/cracha-e-porta-express) · [Laboratório FastAPI + Python](https://github.com/rogeriosilva-ifpi/cracha-e-porta-fastapi)
 
 ## Como este índice funciona
 

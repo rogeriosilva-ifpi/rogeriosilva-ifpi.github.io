@@ -66,6 +66,10 @@ def url_pdf(dados: dict, eb: dict) -> str:
     return f"{url_repo(dados, eb['repo'])}/raw/main/{eb['pdf']}"
 
 
+def url_epub(dados: dict, eb: dict) -> str:
+    return f"{url_repo(dados, eb['repo'])}/raw/main/{eb['epub']}"
+
+
 # ---------------------------------------------------------------- HTML
 
 CSS = """
@@ -128,7 +132,7 @@ h2 a:hover{color:var(--accent-ink)}
 :root[data-theme="dark"] .btn.primary{color:#17191C}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .btn.primary{color:#17191C}}
 .extra{font-size:.82rem;color:var(--muted);margin:0}
-.extra a{white-space:nowrap}
+.extra a{overflow-wrap:anywhere}
 footer{border-top:1px solid var(--rule);padding:1.75rem 0 3.5rem;font-size:.85rem;color:var(--muted)}
 footer p{margin:0 0 .6rem}
 @media (max-width:560px){
@@ -163,6 +167,8 @@ def card(dados: dict, eb: dict) -> str:
     if eb.get("licenca"):
         extras.append(e(eb["licenca"]))
     extra = "".join(f'<p class="extra">{x}</p>' for x in extras)
+    epub = (f'\n        <a class="btn" href="{e(url_epub(dados, eb))}">{ICONE_PDF}EPUB</a>'
+            if eb.get("epub") else "")
     para = f'<p class="para"><b>Para quem:</b> {e(eb["publico"])}</p>' if eb.get("publico") else ""
     return f"""
   <article class="book" id="{e(eb['slug'])}">
@@ -176,7 +182,7 @@ def card(dados: dict, eb: dict) -> str:
       <p class="org">{org}</p>
       <div class="actions">
         <a class="btn primary" href="{site}">{ICONE_LER}Ler online</a>
-        <a class="btn" href="{e(url_pdf(dados, eb))}">{ICONE_PDF}PDF</a>
+        <a class="btn" href="{e(url_pdf(dados, eb))}">{ICONE_PDF}PDF</a>{epub}
         <a class="btn" href="{e(url_repo(dados, eb['repo']))}">{ICONE_GIT}Repositório</a>
       </div>
       {extra}
@@ -216,7 +222,7 @@ def gerar_html(dados: dict) -> str:
 <header>
   <p class="kicker">Biblioteca aberta · {escape(dados['instituicao'])}</p>
   <h1>Ebooks do Prof.<br><span>Rogério Silva</span></h1>
-  <p class="lead">Manuais técnicos sobre desenvolvimento de software, escritos em parceria com IA e testados em sala de aula. Todos livres para ler, copiar e adaptar, no navegador ou em PDF no formato de tela de celular.</p>
+  <p class="lead">Manuais técnicos sobre desenvolvimento de software, escritos em parceria com IA e testados em sala de aula. Todos livres para ler, copiar e adaptar: no navegador, em PDF no formato de tela de celular ou em EPUB no seu app de leitura.</p>
   <ul class="stats">
     <li><b>{len(ebs)}</b>{'ebook' if len(ebs) == 1 else 'ebooks'}</li>
     <li><b>{paginas}</b>páginas</li>
@@ -242,8 +248,10 @@ def gerar_readme(dados: dict) -> str:
     ebs = dados["ebooks"]
     linhas = []
     for eb in ebs:
-        links = (f"[ler online]({eb['site']}) · [PDF]({url_pdf(dados, eb)}) · "
-                 f"[repositório]({url_repo(dados, eb['repo'])})")
+        links = f"[ler online]({eb['site']}) · [PDF]({url_pdf(dados, eb)}) · "
+        if eb.get("epub"):
+            links += f"[EPUB]({url_epub(dados, eb)}) · "
+        links += f"[repositório]({url_repo(dados, eb['repo'])})"
         if eb.get("relacionados"):
             links += " · " + " · ".join(
                 f"[{r['nome']}]({url_repo(dados, r['repo'])})" for r in eb["relacionados"])

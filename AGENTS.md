@@ -9,7 +9,7 @@ Vale para qualquer agente de código (Claude Code, Gemini CLI, Codex, Antigravit
 1. **`catalogo.json` é a fonte única de verdade.** `index.html` e `README.md` são gerados por `gerar.py`. Nunca edite esses dois à mão: a próxima geração apaga a edição.
 2. **Não invente números.** Capítulos, páginas, diagramas e instrumentos vêm do README do próprio livro (linha de métricas logo abaixo do título). Se o README do livro não diz, o catálogo também não diz.
 3. **Coautoria com o nome exato do modelo**, como aparece na capa do livro: `"Claude Opus 5.5"`, `"Gemini 3 Pro"`. Um livro feito com mais de um modelo lista todos, na ordem de contribuição.
-4. **Só entra livro publicado**: repositório público, PDF na raiz do repositório e GitHub Pages ativo.
+4. **Só entra livro publicado**: repositório público, PDF (e, de preferência, EPUB) na raiz do repositório e GitHub Pages ativo.
 5. `gerar.py` usa apenas a biblioteca padrão do Python. Mantenha assim.
 
 ## Registrar um livro novo
@@ -41,6 +41,7 @@ Pré-requisito: o livro já está no repositório próprio, com nome `<slug>-ebo
    | `repo` | sim | `"cracha-e-porta-ebook"` |
    | `site` | sim | URL do GitHub Pages do livro, com `/` no fim |
    | `pdf` | sim | nome do arquivo na raiz do repo, ex. `"Cracha-e-Porta.pdf"` |
+   | `epub` | não | nome do EPUB na raiz do repo, ex. `"Cracha-e-Porta.epub"`; com ele o site mostra o botão EPUB |
    | `publico` | não | uma frase: para quem é |
    | `capa` | não | `"capas/<repo>.webp"`; sem ela o site mostra uma capa tipográfica |
    | `temas` | não | lista de palavras-chave |
@@ -64,6 +65,18 @@ Pré-requisito: o livro já está no repositório próprio, com nome `<slug>-ebo
    ```markdown
    Parte da [biblioteca de ebooks abertos do Prof. Rogério Silva](https://rogeriosilva-ifpi.github.io/).
    ```
+
+## EPUB de um livro novo
+
+Todo livro da série tem um `epub.py` na raiz, que gera o EPUB 3 a partir do `index.html` do próprio livro (um arquivo por capítulo, figuras SVG embutidas, capa tirada do PDF). Para um livro novo que siga a mesma marcação (`section.chapter` com `.chapter-open`), copie o `epub.py` de qualquer um deles, ajuste o bloco `CONFIG` no topo e rode:
+
+```bash
+pip install beautifulsoup4 html5lib pillow   # e o poppler (pdftoppm) para a capa
+python3 epub.py
+pip install epubcheck && epubcheck <Arquivo>.epub   # deve terminar com 0 erros
+```
+
+Faça o commit do `.epub` no repositório do livro, acrescente a linha **EPUB** na seção "Como ler" do README dele e preencha o campo `epub` no catálogo.
 
 ## Atualizar um livro existente
 

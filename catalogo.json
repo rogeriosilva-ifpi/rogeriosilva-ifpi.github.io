@@ -65,6 +65,7 @@
       "repo": "arquitetura-ia-ebook",
       "site": "https://rogeriosilva-ifpi.github.io/arquitetura-ia-ebook/",
       "pdf": "Arquitetura-em-Tempos-de-IA.pdf",
+      "epub": "Arquitetura-em-Tempos-de-IA.epub",
       "capa": "capas/arquitetura-ia-ebook.webp",
       "relacionados": [],
       "licenca": "Texto CC BY-SA 4.0"
@@ -99,6 +100,7 @@
       "repo": "cracha-e-porta-ebook",
       "site": "https://rogeriosilva-ifpi.github.io/cracha-e-porta-ebook/",
       "pdf": "Cracha-e-Porta.pdf",
+      "epub": "Cracha-e-Porta.epub",
       "capa": "capas/cracha-e-porta-ebook.webp",
       "relacionados": [
         {
