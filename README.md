@@ -14,7 +14,7 @@ Manual de campo para desenvolver no dia a dia com agentes de código como Claude
 Manual de campo v1.0 · setembro de 2026 · organizado por Prof. Rogério Silva e Claude Opus 5  
 28 capítulos · 127 páginas · 16 diagramas
 
-[ler online](https://rogeriosilva-ifpi.github.io/ia-dev-ebook/) · [PDF](https://github.com/rogeriosilva-ifpi/ia-dev-ebook/raw/main/Desenvolvimento-Dirigido-por-IA.pdf) · [repositório](https://github.com/rogeriosilva-ifpi/ia-dev-ebook)
+[ler online](https://rogeriosilva-ifpi.github.io/ia-dev-ebook/) · [PDF](https://github.com/rogeriosilva-ifpi/ia-dev-ebook/raw/main/Desenvolvimento-Dirigido-por-IA.pdf) · [EPUB](https://github.com/rogeriosilva-ifpi/ia-dev-ebook/raw/main/Desenvolvimento-Dirigido-por-IA.epub) · [repositório](https://github.com/rogeriosilva-ifpi/ia-dev-ebook)
 
 ### [Arquitetura em Tempos de IA](https://rogeriosilva-ifpi.github.io/arquitetura-ia-ebook/)
 
