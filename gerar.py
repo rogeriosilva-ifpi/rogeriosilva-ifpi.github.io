@@ -55,7 +55,6 @@ def carregar() -> dict:
             erros.append(f"{eb.get('slug')}: publicado_em deve ser AAAA-MM")
     if erros:
         sys.exit("catalogo.json inválido:\n  - " + "\n  - ".join(erros))
-    dados["ebooks"].sort(key=lambda e: e["publicado_em"], reverse=True)
     return dados
 
 

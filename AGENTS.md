@@ -25,7 +25,7 @@ Pré-requisito: o livro já está no repositório próprio, com nome `<slug>-ebo
 
    (O sufixo do PNG pode ser `-1`, `-01` ou `-001`, conforme o número de páginas do PDF. O `crop` remove a margem branca que alguns PDFs têm em volta da capa.)
 
-2. **Registro.** Acrescente um objeto em `ebooks` no `catalogo.json`. A ordem no arquivo não importa: o site ordena por `publicado_em`, do mais recente para o mais antigo.
+2. **Registro.** Acrescente um objeto em `ebooks` no `catalogo.json`. **A ordem no arquivo é a ordem no site**, de cima para baixo: o livro novo entra no fim da lista, a menos que o Prof. Rogério peça outra posição.
 
    | Campo | Obrigatório | Exemplo |
    |---|---|---|

@@ -7,14 +7,14 @@
 
 ## Livros
 
-### [Crachá & Porta](https://rogeriosilva-ifpi.github.io/cracha-e-porta-ebook/)
+### [Desenvolvimento Dirigido por IA](https://rogeriosilva-ifpi.github.io/ia-dev-ebook/)
 
-Autenticação e autorização em backends Express e FastAPI, do zero até o nível de um sênior, inclusive quando é a IA que escreve o código.
+Manual de campo para desenvolver no dia a dia com agentes de código como Claude Code, OpenAI Codex e Antigravity CLI.
 
-Manual de campo v1.0 · outubro de 2026 · organizado por Prof. Rogério Silva e Claude Opus 5.5  
-16 capítulos · 223 páginas · 54 ataques reproduzíveis · 8 instrumentos
+Manual de campo v1.0 · setembro de 2026 · organizado por Prof. Rogério Silva e Claude Opus 5  
+28 capítulos · 127 páginas · 16 diagramas
 
-[ler online](https://rogeriosilva-ifpi.github.io/cracha-e-porta-ebook/) · [PDF](https://github.com/rogeriosilva-ifpi/cracha-e-porta-ebook/raw/main/Cracha-e-Porta.pdf) · [repositório](https://github.com/rogeriosilva-ifpi/cracha-e-porta-ebook) · [Laboratório Express 5 + TypeScript](https://github.com/rogeriosilva-ifpi/cracha-e-porta-express) · [Laboratório FastAPI + Python](https://github.com/rogeriosilva-ifpi/cracha-e-porta-fastapi)
+[ler online](https://rogeriosilva-ifpi.github.io/ia-dev-ebook/) · [PDF](https://github.com/rogeriosilva-ifpi/ia-dev-ebook/raw/main/Desenvolvimento-Dirigido-por-IA.pdf) · [repositório](https://github.com/rogeriosilva-ifpi/ia-dev-ebook)
 
 ### [Arquitetura em Tempos de IA](https://rogeriosilva-ifpi.github.io/arquitetura-ia-ebook/)
 
@@ -25,14 +25,14 @@ Ensaio técnico v1.0 · outubro de 2026 · organizado por Prof. Rogério Silva e
 
 [ler online](https://rogeriosilva-ifpi.github.io/arquitetura-ia-ebook/) · [PDF](https://github.com/rogeriosilva-ifpi/arquitetura-ia-ebook/raw/main/Arquitetura-em-Tempos-de-IA.pdf) · [repositório](https://github.com/rogeriosilva-ifpi/arquitetura-ia-ebook)
 
-### [Desenvolvimento Dirigido por IA](https://rogeriosilva-ifpi.github.io/ia-dev-ebook/)
+### [Crachá & Porta](https://rogeriosilva-ifpi.github.io/cracha-e-porta-ebook/)
 
-Manual de campo para desenvolver no dia a dia com agentes de código como Claude Code, OpenAI Codex e Antigravity CLI.
+Autenticação e autorização em backends Express e FastAPI, do zero até o nível de um sênior, inclusive quando é a IA que escreve o código.
 
-Manual de campo v1.0 · setembro de 2026 · organizado por Prof. Rogério Silva e Claude Opus 5  
-28 capítulos · 127 páginas · 16 diagramas
+Manual de campo v1.0 · outubro de 2026 · organizado por Prof. Rogério Silva e Claude Opus 5.5  
+16 capítulos · 223 páginas · 54 ataques reproduzíveis · 8 instrumentos
 
-[ler online](https://rogeriosilva-ifpi.github.io/ia-dev-ebook/) · [PDF](https://github.com/rogeriosilva-ifpi/ia-dev-ebook/raw/main/Desenvolvimento-Dirigido-por-IA.pdf) · [repositório](https://github.com/rogeriosilva-ifpi/ia-dev-ebook)
+[ler online](https://rogeriosilva-ifpi.github.io/cracha-e-porta-ebook/) · [PDF](https://github.com/rogeriosilva-ifpi/cracha-e-porta-ebook/raw/main/Cracha-e-Porta.pdf) · [repositório](https://github.com/rogeriosilva-ifpi/cracha-e-porta-ebook) · [Laboratório Express 5 + TypeScript](https://github.com/rogeriosilva-ifpi/cracha-e-porta-express) · [Laboratório FastAPI + Python](https://github.com/rogeriosilva-ifpi/cracha-e-porta-fastapi)
 
 ## Como este índice funciona
 
