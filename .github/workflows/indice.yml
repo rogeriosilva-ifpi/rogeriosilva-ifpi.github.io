@@ -1,0 +1,32 @@
+name: Índice
+
+on:
+  push:
+    branches: [main]
+    paths: ["catalogo.json", "gerar.py", "capas/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Gerar index.html e README.md
+        run: python gerar.py
+      - name: Commit, se mudou
+        run: |
+          if git diff --quiet -- index.html README.md; then
+            echo "Índice já estava em dia."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add index.html README.md
+            git commit -m "indice: regenera a partir de catalogo.json"
+            git push
+          fi

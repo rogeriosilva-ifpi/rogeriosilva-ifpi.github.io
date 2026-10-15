@@ -1,0 +1,71 @@
+{
+  "autor": "Prof. Rogério Silva",
+  "instituicao": "IFPI · Instituto Federal do Piauí",
+  "github": "rogeriosilva-ifpi",
+  "site": "https://rogeriosilva-ifpi.github.io/",
+  "ebooks": [
+    {
+      "slug": "cracha-e-porta",
+      "titulo": "Crachá & Porta",
+      "subtitulo": "Autenticação e autorização em backends Express e FastAPI, do zero até o nível de um sênior, inclusive quando é a IA que escreve o código.",
+      "tipo": "Manual de campo",
+      "versao": "1.0",
+      "publicado_em": "2026-10",
+      "coautoria_ia": ["Claude Opus 5.5"],
+      "publico": "Quem estuda Express/TypeScript ou FastAPI/Python, usa IA para programar e nunca estudou autenticação nem autorização.",
+      "numeros": ["16 capítulos", "223 páginas", "54 ataques reproduzíveis", "8 instrumentos"],
+      "paginas": 223,
+      "temas": ["autenticação", "autorização", "segurança", "backend", "Express", "FastAPI"],
+      "contexto": "TEC.1052 Programação para Internet II · ADS · IFPI",
+      "repo": "cracha-e-porta-ebook",
+      "site": "https://rogeriosilva-ifpi.github.io/cracha-e-porta-ebook/",
+      "pdf": "Cracha-e-Porta.pdf",
+      "capa": "capas/cracha-e-porta-ebook.webp",
+      "relacionados": [
+        { "nome": "Laboratório Express 5 + TypeScript", "repo": "cracha-e-porta-express" },
+        { "nome": "Laboratório FastAPI + Python", "repo": "cracha-e-porta-fastapi" }
+      ],
+      "licenca": "Texto CC BY-SA 4.0 · código MIT"
+    },
+    {
+      "slug": "arquitetura-ia",
+      "titulo": "Arquitetura em Tempos de IA",
+      "subtitulo": "Repensando Clean Architecture, DDD e SOLID para agentes autônomos.",
+      "tipo": "Ensaio técnico",
+      "versao": "1.0",
+      "publicado_em": "2026-10",
+      "coautoria_ia": ["Claude Opus 5"],
+      "publico": "Arquitetos, devs seniores e estudantes avançados que já conhecem SOLID, Clean/Hexagonal e DDD tático.",
+      "numeros": ["5 capítulos + introdução e epílogo", "220 páginas", "12 diagramas", "6 instrumentos"],
+      "paginas": 220,
+      "temas": ["arquitetura", "DDD", "SOLID", "Clean Architecture", "agentes"],
+      "contexto": "",
+      "repo": "arquitetura-ia-ebook",
+      "site": "https://rogeriosilva-ifpi.github.io/arquitetura-ia-ebook/",
+      "pdf": "Arquitetura-em-Tempos-de-IA.pdf",
+      "capa": "capas/arquitetura-ia-ebook.webp",
+      "relacionados": [],
+      "licenca": "Texto CC BY-SA 4.0"
+    },
+    {
+      "slug": "ia-dev",
+      "titulo": "Desenvolvimento Dirigido por IA",
+      "subtitulo": "Manual de campo para desenvolver no dia a dia com agentes de código como Claude Code, OpenAI Codex e Antigravity CLI.",
+      "tipo": "Manual de campo",
+      "versao": "1.0",
+      "publicado_em": "2026-09",
+      "coautoria_ia": ["Claude Opus 5"],
+      "publico": "Quem já programa e está adotando agentes de IA no trabalho do dia a dia.",
+      "numeros": ["28 capítulos", "127 páginas", "16 diagramas"],
+      "paginas": 127,
+      "temas": ["agentes de código", "Claude Code", "Codex", "Antigravity CLI", "fluxo de trabalho"],
+      "contexto": "",
+      "repo": "ia-dev-ebook",
+      "site": "https://rogeriosilva-ifpi.github.io/ia-dev-ebook/",
+      "pdf": "Desenvolvimento-Dirigido-por-IA.pdf",
+      "capa": "capas/ia-dev-ebook.webp",
+      "relacionados": [],
+      "licenca": "Texto CC BY-SA 4.0"
+    }
+  ]
+}

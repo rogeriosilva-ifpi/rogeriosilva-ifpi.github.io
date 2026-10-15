@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ebooks Abertos · Rogério Silva</title>
+<meta name="description" content="3 ebooks técnicos abertos do Prof. Rogério Silva (IFPI · Instituto Federal do Piauí), escritos em parceria com IA. Leitura no navegador ou em PDF para celular.">
+<meta property="og:title" content="Ebooks Abertos · Prof. Rogério Silva">
+<meta property="og:description" content="3 ebooks técnicos abertos do Prof. Rogério Silva (IFPI · Instituto Federal do Piauí), escritos em parceria com IA. Leitura no navegador ou em PDF para celular.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://rogeriosilva-ifpi.github.io/">
+<meta name="theme-color" content="#17191C">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2317191C'/%3E%3Cpath d='M8 9h7a2 2 0 0 1 2 2v13a2 2 0 0 0-2-2H8zM24 9h-5' stroke='%23F0915A' stroke-width='2.6' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
+<!-- GERADO POR gerar.py A PARTIR DE catalogo.json. NÃO EDITE À MÃO. -->
+<style>
+:root{
+  --paper:#FFFEFC;--card:#FFFFFF;--ink:#17191C;--ink-soft:#3F444B;--muted:#6F6961;
+  --rule:#E8E3DA;--accent:#C2410C;--accent-ink:#9A3412;--accent-soft:#FDF3EC;--accent-line:#F0D4C2;
+  --cover-bg:#17191C;--shadow:0 1px 2px rgba(23,25,28,.06),0 8px 24px rgba(23,25,28,.07);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#121417;--card:#1A1D21;--ink:#F2EFE9;--ink-soft:#CFC9BC;--muted:#9C968B;
+  --rule:#2C3036;--accent:#F0915A;--accent-ink:#F5A877;--accent-soft:#2A1E17;--accent-line:#4A2E1F;
+  --cover-bg:#0B0C0E;--shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px rgba(0,0,0,.25);
+}}
+:root[data-theme="dark"]{
+  --paper:#121417;--card:#1A1D21;--ink:#F2EFE9;--ink-soft:#CFC9BC;--muted:#9C968B;
+  --rule:#2C3036;--accent:#F0915A;--accent-ink:#F5A877;--accent-soft:#2A1E17;--accent-line:#4A2E1F;
+  --cover-bg:#0B0C0E;--shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+html{font-family:"Inter",system-ui,-apple-system,sans-serif;font-size:17px;line-height:1.6;
+  color:var(--ink);background:var(--paper);-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper)}
+.wrap{max-width:52rem;margin:0 auto;padding:0 16px}
+a{color:var(--accent-ink)}
+.mono{font-family:"JetBrains Mono",ui-monospace,monospace}
+.kicker{font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin:0 0 .6rem}
+header{padding:3.5rem 0 2.25rem;border-bottom:1px solid var(--rule)}
+h1{font-size:clamp(2.1rem,7vw,3.2rem);line-height:1.04;letter-spacing:-.025em;font-weight:900;margin:0 0 1rem}
+h1 span{color:var(--accent)}
+.lead{font-size:1.08rem;color:var(--ink-soft);max-width:38rem;margin:0 0 1.5rem}
+.stats{display:flex;flex-wrap:wrap;gap:.4rem 1.6rem;margin:0;padding:0;list-style:none;font-size:.85rem;color:var(--muted)}
+.stats b{color:var(--ink);font-weight:700;font-size:1.05rem;margin-right:.25rem}
+main{padding:2rem 0 1rem}
+.book{display:grid;grid-template-columns:150px 1fr;gap:1.5rem;padding:1.75rem 0;border-bottom:1px solid var(--rule)}
+.book:last-child{border-bottom:0}
+.cover{display:block;aspect-ratio:108/192;background:var(--cover-bg);border-radius:6px;overflow:hidden;
+  box-shadow:var(--shadow);transition:transform .15s ease}
+.cover:hover{transform:translateY(-2px)}
+.cover img{width:100%;height:100%;object-fit:contain;display:block}
+.cover .sem-capa{display:flex;align-items:flex-end;height:100%;padding:12px;color:#F2EFE9;font-weight:800;line-height:1.1;font-size:1rem}
+.info{min-width:0}
+.info .kicker{color:var(--muted);letter-spacing:.1em}
+h2{font-size:1.55rem;line-height:1.15;letter-spacing:-.015em;font-weight:800;margin:0 0 .45rem}
+h2 a{color:var(--ink);text-decoration:none}
+h2 a:hover{color:var(--accent-ink)}
+.sub{color:var(--ink-soft);margin:0 0 .75rem}
+.para{font-size:.9rem;color:var(--muted);margin:0 0 .85rem}
+.para b{color:var(--ink-soft);font-weight:600}
+.nums{display:flex;flex-wrap:wrap;gap:.35rem;margin:0 0 .85rem;padding:0;list-style:none}
+.nums li{font-size:.76rem;padding:.18rem .55rem;border:1px solid var(--accent-line);background:var(--accent-soft);
+  color:var(--accent-ink);border-radius:999px;font-weight:500}
+.org{font-size:.85rem;color:var(--muted);margin:0 0 1rem}
+.org b{color:var(--ink);font-weight:600}
+.actions{display:flex;flex-wrap:wrap;gap:.5rem;margin:0 0 .8rem}
+.btn{display:inline-flex;align-items:center;gap:.4rem;font-size:.86rem;font-weight:600;text-decoration:none;
+  padding:.5rem .9rem;border-radius:7px;border:1px solid var(--rule);color:var(--ink);background:var(--card);min-height:40px}
+.btn:hover{border-color:var(--accent-line);color:var(--accent-ink)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+.btn.primary:hover{filter:brightness(1.07);color:#fff}
+:root[data-theme="dark"] .btn.primary{color:#17191C}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .btn.primary{color:#17191C}}
+.extra{font-size:.82rem;color:var(--muted);margin:0}
+.extra a{white-space:nowrap}
+footer{border-top:1px solid var(--rule);padding:1.75rem 0 3.5rem;font-size:.85rem;color:var(--muted)}
+footer p{margin:0 0 .6rem}
+@media (max-width:560px){
+  header{padding-top:2.5rem}
+  .book{grid-template-columns:96px 1fr;gap:1rem}
+  h2{font-size:1.25rem}
+  .sub{font-size:.95rem}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <p class="kicker">Biblioteca aberta · IFPI · Instituto Federal do Piauí</p>
+  <h1>Ebooks do Prof.<br><span>Rogério Silva</span></h1>
+  <p class="lead">Manuais técnicos sobre desenvolvimento de software, escritos em parceria com IA e testados em sala de aula. Todos livres para ler, copiar e adaptar, no navegador ou em PDF no formato de tela de celular.</p>
+  <ul class="stats">
+    <li><b>3</b>ebooks</li>
+    <li><b>570</b>páginas</li>
+    <li><b>Claude</b>como coautor</li>
+    <li><b>2026</b>primeira edição</li>
+  </ul>
+</header>
+<main>
+  <article class="book" id="cracha-e-porta">
+    <a class="cover" href="https://rogeriosilva-ifpi.github.io/cracha-e-porta-ebook/" tabindex="-1" aria-hidden="true"><img src="capas/cracha-e-porta-ebook.webp" alt="Capa de Crachá &amp; Porta" width="420" height="747" loading="lazy"></a>
+    <div class="info">
+      <p class="kicker">Manual de campo · v1.0 · outubro de 2026</p>
+      <h2><a href="https://rogeriosilva-ifpi.github.io/cracha-e-porta-ebook/">Crachá &amp; Porta</a></h2>
+      <p class="sub">Autenticação e autorização em backends Express e FastAPI, do zero até o nível de um sênior, inclusive quando é a IA que escreve o código.</p>
+      <p class="para"><b>Para quem:</b> Quem estuda Express/TypeScript ou FastAPI/Python, usa IA para programar e nunca estudou autenticação nem autorização.</p>
+      <ul class="nums"><li>16 capítulos</li><li>223 páginas</li><li>54 ataques reproduzíveis</li><li>8 instrumentos</li></ul>
+      <p class="org">Organizado por <b>Prof. Rogério Silva</b> e <b>Claude Opus 5.5</b></p>
+      <div class="actions">
+        <a class="btn primary" href="https://rogeriosilva-ifpi.github.io/cracha-e-porta-ebook/"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 5h7a3 3 0 0 1 3 3v12a2 2 0 0 0-2-2H2z"/><path d="M22 5h-7a3 3 0 0 0-3 3v12a2 2 0 0 1 2-2h8z"/></svg>Ler online</a>
+        <a class="btn" href="https://github.com/rogeriosilva-ifpi/cracha-e-porta-ebook/raw/main/Cracha-e-Porta.pdf"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>PDF</a>
+        <a class="btn" href="https://github.com/rogeriosilva-ifpi/cracha-e-porta-ebook"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="6" cy="6" r="2.5"/><circle cx="6" cy="18" r="2.5"/><circle cx="18" cy="8" r="2.5"/><path d="M6 8.5v7"/><path d="M18 10.5c0 4-6 3-10.5 6"/></svg>Repositório</a>
+      </div>
+      <p class="extra">Código: <a href="https://github.com/rogeriosilva-ifpi/cracha-e-porta-express">Laboratório Express 5 + TypeScript</a> · <a href="https://github.com/rogeriosilva-ifpi/cracha-e-porta-fastapi">Laboratório FastAPI + Python</a></p><p class="extra">TEC.1052 Programação para Internet II · ADS · IFPI</p><p class="extra">Texto CC BY-SA 4.0 · código MIT</p>
+    </div>
+  </article>
+  <article class="book" id="arquitetura-ia">
+    <a class="cover" href="https://rogeriosilva-ifpi.github.io/arquitetura-ia-ebook/" tabindex="-1" aria-hidden="true"><img src="capas/arquitetura-ia-ebook.webp" alt="Capa de Arquitetura em Tempos de IA" width="420" height="747" loading="lazy"></a>
+    <div class="info">
+      <p class="kicker">Ensaio técnico · v1.0 · outubro de 2026</p>
+      <h2><a href="https://rogeriosilva-ifpi.github.io/arquitetura-ia-ebook/">Arquitetura em Tempos de IA</a></h2>
+      <p class="sub">Repensando Clean Architecture, DDD e SOLID para agentes autônomos.</p>
+      <p class="para"><b>Para quem:</b> Arquitetos, devs seniores e estudantes avançados que já conhecem SOLID, Clean/Hexagonal e DDD tático.</p>
+      <ul class="nums"><li>5 capítulos + introdução e epílogo</li><li>220 páginas</li><li>12 diagramas</li><li>6 instrumentos</li></ul>
+      <p class="org">Organizado por <b>Prof. Rogério Silva</b> e <b>Claude Opus 5</b></p>
+      <div class="actions">
+        <a class="btn primary" href="https://rogeriosilva-ifpi.github.io/arquitetura-ia-ebook/"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 5h7a3 3 0 0 1 3 3v12a2 2 0 0 0-2-2H2z"/><path d="M22 5h-7a3 3 0 0 0-3 3v12a2 2 0 0 1 2-2h8z"/></svg>Ler online</a>
+        <a class="btn" href="https://github.com/rogeriosilva-ifpi/arquitetura-ia-ebook/raw/main/Arquitetura-em-Tempos-de-IA.pdf"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>PDF</a>
+        <a class="btn" href="https://github.com/rogeriosilva-ifpi/arquitetura-ia-ebook"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="6" cy="6" r="2.5"/><circle cx="6" cy="18" r="2.5"/><circle cx="18" cy="8" r="2.5"/><path d="M6 8.5v7"/><path d="M18 10.5c0 4-6 3-10.5 6"/></svg>Repositório</a>
+      </div>
+      <p class="extra">Texto CC BY-SA 4.0</p>
+    </div>
+  </article>
+  <article class="book" id="ia-dev">
+    <a class="cover" href="https://rogeriosilva-ifpi.github.io/ia-dev-ebook/" tabindex="-1" aria-hidden="true"><img src="capas/ia-dev-ebook.webp" alt="Capa de Desenvolvimento Dirigido por IA" width="420" height="747" loading="lazy"></a>
+    <div class="info">
+      <p class="kicker">Manual de campo · v1.0 · setembro de 2026</p>
+      <h2><a href="https://rogeriosilva-ifpi.github.io/ia-dev-ebook/">Desenvolvimento Dirigido por IA</a></h2>
+      <p class="sub">Manual de campo para desenvolver no dia a dia com agentes de código como Claude Code, OpenAI Codex e Antigravity CLI.</p>
+      <p class="para"><b>Para quem:</b> Quem já programa e está adotando agentes de IA no trabalho do dia a dia.</p>
+      <ul class="nums"><li>28 capítulos</li><li>127 páginas</li><li>16 diagramas</li></ul>
+      <p class="org">Organizado por <b>Prof. Rogério Silva</b> e <b>Claude Opus 5</b></p>
+      <div class="actions">
+        <a class="btn primary" href="https://rogeriosilva-ifpi.github.io/ia-dev-ebook/"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 5h7a3 3 0 0 1 3 3v12a2 2 0 0 0-2-2H2z"/><path d="M22 5h-7a3 3 0 0 0-3 3v12a2 2 0 0 1 2-2h8z"/></svg>Ler online</a>
+        <a class="btn" href="https://github.com/rogeriosilva-ifpi/ia-dev-ebook/raw/main/Desenvolvimento-Dirigido-por-IA.pdf"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>PDF</a>
+        <a class="btn" href="https://github.com/rogeriosilva-ifpi/ia-dev-ebook"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="6" cy="6" r="2.5"/><circle cx="6" cy="18" r="2.5"/><circle cx="18" cy="8" r="2.5"/><path d="M6 8.5v7"/><path d="M18 10.5c0 4-6 3-10.5 6"/></svg>Repositório</a>
+      </div>
+      <p class="extra">Texto CC BY-SA 4.0</p>
+    </div>
+  </article>
+</main>
+<footer>
+  <p>Cada livro mora no seu próprio repositório, com a sua licença. Este índice é gerado a partir de <a href="https://github.com/rogeriosilva-ifpi/rogeriosilva-ifpi.github.io/blob/main/catalogo.json" class="mono">catalogo.json</a>; para incluir um livro novo, veja o <a href="https://github.com/rogeriosilva-ifpi/rogeriosilva-ifpi.github.io/blob/main/AGENTS.md" class="mono">AGENTS.md</a>.</p>
+  <p>Prof. Rogério Silva · <a href="https://github.com/rogeriosilva-ifpi">github.com/rogeriosilva-ifpi</a></p>
+</footer>
+</div>
+</body>
+</html>
