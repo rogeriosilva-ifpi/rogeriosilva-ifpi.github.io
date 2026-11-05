@@ -114,6 +114,55 @@
         }
       ],
       "licenca": "Texto CC BY-SA 4.0 · código MIT"
+    },
+    {
+      "slug": "estado-e-tela",
+      "titulo": "Estado & Tela",
+      "subtitulo": "Aplicações web reativas com React, do DOM manipulado à mão até uma aplicação completa, autenticada e testada, construída com agentes de IA sem perder o controle do código.",
+      "tipo": "Manual de campo",
+      "versao": "1.0",
+      "publicado_em": "2026-11",
+      "coautoria_ia": [
+        "Claude Opus 5.5"
+      ],
+      "publico": "Quem já faz páginas com HTML, CSS e JavaScript, consome APIs e escreveu um backend REST, e vai construir front-end com React e agentes de IA.",
+      "numeros": [
+        "20 capítulos",
+        "244 páginas",
+        "22 figuras",
+        "21 ilustrações"
+      ],
+      "paginas": 244,
+      "temas": [
+        "React",
+        "front-end",
+        "estado",
+        "TanStack Query",
+        "React Router",
+        "testes",
+        "agentes"
+      ],
+      "contexto": "TEC.1052 Programação para Internet II · ADS · IFPI",
+      "repo": "estado-e-tela-ebook",
+      "site": "https://rogeriosilva-ifpi.github.io/estado-e-tela-ebook/",
+      "pdf": "Estado-e-Tela.pdf",
+      "epub": "Estado-e-Tela.epub",
+      "capa": "capas/estado-e-tela-ebook.webp",
+      "relacionados": [
+        {
+          "nome": "Mini-Prontuário em React",
+          "repo": "estado-e-tela-web"
+        },
+        {
+          "nome": "API Express do laboratório",
+          "repo": "estado-e-tela-api"
+        },
+        {
+          "nome": "Laboratório Next.js",
+          "repo": "estado-e-tela-next"
+        }
+      ],
+      "licenca": "Texto CC BY-SA 4.0 · código MIT"
     }
   ]
 }

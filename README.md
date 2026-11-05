@@ -1,7 +1,7 @@
 <!-- GERADO POR gerar.py A PARTIR DE catalogo.json. NÃO EDITE À MÃO. -->
 # Ebooks do Prof. Rogério Silva
 
-Índice dos ebooks técnicos abertos do Prof. Rogério Silva (IFPI · Instituto Federal do Piauí), escritos em parceria com IA. **3 livros · 570 páginas.**
+Índice dos ebooks técnicos abertos do Prof. Rogério Silva (IFPI · Instituto Federal do Piauí), escritos em parceria com IA. **4 livros · 814 páginas.**
 
 **Site:** https://rogeriosilva-ifpi.github.io/
 
@@ -33,6 +33,15 @@ Manual de campo v1.0 · outubro de 2026 · organizado por Prof. Rogério Silva e
 16 capítulos · 223 páginas · 54 ataques reproduzíveis · 8 instrumentos
 
 [ler online](https://rogeriosilva-ifpi.github.io/cracha-e-porta-ebook/) · [PDF](https://github.com/rogeriosilva-ifpi/cracha-e-porta-ebook/raw/main/Cracha-e-Porta.pdf) · [EPUB](https://github.com/rogeriosilva-ifpi/cracha-e-porta-ebook/raw/main/Cracha-e-Porta.epub) · [repositório](https://github.com/rogeriosilva-ifpi/cracha-e-porta-ebook) · [Laboratório Express 5 + TypeScript](https://github.com/rogeriosilva-ifpi/cracha-e-porta-express) · [Laboratório FastAPI + Python](https://github.com/rogeriosilva-ifpi/cracha-e-porta-fastapi)
+
+### [Estado & Tela](https://rogeriosilva-ifpi.github.io/estado-e-tela-ebook/)
+
+Aplicações web reativas com React, do DOM manipulado à mão até uma aplicação completa, autenticada e testada, construída com agentes de IA sem perder o controle do código.
+
+Manual de campo v1.0 · novembro de 2026 · organizado por Prof. Rogério Silva e Claude Opus 5.5  
+20 capítulos · 244 páginas · 22 figuras · 21 ilustrações
+
+[ler online](https://rogeriosilva-ifpi.github.io/estado-e-tela-ebook/) · [PDF](https://github.com/rogeriosilva-ifpi/estado-e-tela-ebook/raw/main/Estado-e-Tela.pdf) · [EPUB](https://github.com/rogeriosilva-ifpi/estado-e-tela-ebook/raw/main/Estado-e-Tela.epub) · [repositório](https://github.com/rogeriosilva-ifpi/estado-e-tela-ebook) · [Mini-Prontuário em React](https://github.com/rogeriosilva-ifpi/estado-e-tela-web) · [API Express do laboratório](https://github.com/rogeriosilva-ifpi/estado-e-tela-api) · [Laboratório Next.js](https://github.com/rogeriosilva-ifpi/estado-e-tela-next)
 
 ## Como este índice funciona
 
