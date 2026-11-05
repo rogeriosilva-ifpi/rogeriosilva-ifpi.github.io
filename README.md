@@ -41,7 +41,7 @@ Aplicações web reativas com React, do DOM manipulado à mão até uma aplicaç
 Manual de campo v1.0 · novembro de 2026 · organizado por Prof. Rogério Silva e Claude Opus 5.5  
 20 capítulos · 244 páginas · 22 figuras · 21 ilustrações
 
-[ler online](https://rogeriosilva-ifpi.github.io/estado-e-tela-ebook/) · [PDF](https://github.com/rogeriosilva-ifpi/estado-e-tela-ebook/raw/main/Estado-e-Tela.pdf) · [EPUB](https://github.com/rogeriosilva-ifpi/estado-e-tela-ebook/raw/main/Estado-e-Tela.epub) · [repositório](https://github.com/rogeriosilva-ifpi/estado-e-tela-ebook)
+[ler online](https://rogeriosilva-ifpi.github.io/estado-e-tela-ebook/) · [PDF](https://github.com/rogeriosilva-ifpi/estado-e-tela-ebook/raw/main/Estado-e-Tela.pdf) · [EPUB](https://github.com/rogeriosilva-ifpi/estado-e-tela-ebook/raw/main/Estado-e-Tela.epub) · [repositório](https://github.com/rogeriosilva-ifpi/estado-e-tela-ebook) · [Mini-Prontuário em React](https://github.com/rogeriosilva-ifpi/estado-e-tela-web) · [API Express do laboratório](https://github.com/rogeriosilva-ifpi/estado-e-tela-api) · [Laboratório Next.js](https://github.com/rogeriosilva-ifpi/estado-e-tela-next)
 
 ## Como este índice funciona
 

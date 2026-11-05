@@ -148,7 +148,20 @@
       "pdf": "Estado-e-Tela.pdf",
       "epub": "Estado-e-Tela.epub",
       "capa": "capas/estado-e-tela-ebook.webp",
-      "relacionados": [],
+      "relacionados": [
+        {
+          "nome": "Mini-Prontuário em React",
+          "repo": "estado-e-tela-web"
+        },
+        {
+          "nome": "API Express do laboratório",
+          "repo": "estado-e-tela-api"
+        },
+        {
+          "nome": "Laboratório Next.js",
+          "repo": "estado-e-tela-next"
+        }
+      ],
       "licenca": "Texto CC BY-SA 4.0 · código MIT"
     }
   ]
